@@ -1,0 +1,23 @@
+/* styles.module.css */
+
+/* Custom styles for the card layout */
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 1s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 18px 16px rgba(9, 9, 9, 0.2);
+    transform: scale(1.1);
+  }
+  
+
+  
